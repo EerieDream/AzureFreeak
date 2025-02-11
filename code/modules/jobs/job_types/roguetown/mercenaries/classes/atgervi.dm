@@ -35,7 +35,8 @@
 			H.mind.adjust_skillrank(/datum/skill/combat/maces, 2, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
-			H.mind.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)	
+			H.mind.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)
+			H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()	
 
 			H.change_stat("strength", 2)	
 			H.change_stat("endurance", 3)
@@ -69,6 +70,7 @@
 			H.mind.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/craft/tanning, 2, TRUE)
+			H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()
 
 			H.change_stat("strength", 3) 
 			H.change_stat("endurance", 2)
